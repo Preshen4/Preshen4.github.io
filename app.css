@@ -12,6 +12,7 @@
 /* Smooth scroll */
 html{
   scroll-behavior: smooth;
+  min-width: 100vh;
 }
 /* Utility Classes */
 .text-secondary{
