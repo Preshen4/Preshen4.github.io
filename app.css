@@ -38,7 +38,7 @@ html{
 }
 
 .container{
-  max-width: 1300px;
+  max-width: auto;
   margin: auto;
   padding: 0 100px;
 }
@@ -556,7 +556,7 @@ section{
   }
 }
 
-@media(  max-width: 450px)
+@media(max-width: 450px)
 {
   html{
     font-size: 55%;
@@ -565,6 +565,117 @@ section{
     grid-template-columns: 1fr;
   }
 }
+
+/*Mobile adjustment*/
+
+@media screen and (max-width: 450px) {
+  .skills .skill-content .left{
+    width: 100%;
+    margin-bottom: 30px; overflow: auto;
+  }
+  .skills .skill-content .right {
+    width: 100%; overflow: auto;
+  }
+  .skills .skill-content .right .bars .bar{
+    margin-bottom: 20px; overflow: auto;
+  }
+
+  .skills .skill-content .left .text{
+    font-size: 35px;
+    font-weight: 700;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    color: blueviolet; overflow: auto;
+  }
+  .contact .contact-content .column{
+    width: 100%;
+    margin-top: 30px; overflow: auto;
+  }
+  .contact .contact-content .left .form-group input{
+    width: 100%; overflow: auto;
+  }
+  .contact .contact-content .left .form-group textarea{
+    width: 100%; overflow: auto;
+  }
+  .contact .contact-content .right .items .item{
+    display: block; overflow: auto;
+  }
+  .contact .contact-content .right .items .item i{
+    margin-right: 0; overflow: auto;
+  }
+  .contact .contact-content .right .links li{
+    padding-right: 0; overflow: auto;
+  }
+  .contact .contact-content .right .links li a{
+    padding-right: 15px; overflow: auto;
+  }
+  .navbar .menu .list .item{
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+            overflow: auto;
+  
+  }
+}
+  
+
+@media (max-width: 600px) {
+  /* Make the navbar full width and remove the logo */
+  .navbar {
+    width: 100%;
+        overflow: auto;
+  }
+  .logo {
+    display: none;
+  }
+
+  /* Make the menu items stack vertically */
+  .menu {
+    flex-direction: column;
+        overflow: auto;
+  }
+
+  /* Make the showcase text full width and center it */
+  .showcase-text {
+    width: 100%;
+    text-align: center;
+        overflow: auto;
+  }
+  /* Make the about section use full width columns */
+  .about-content .column {
+    width: 100%;
+        overflow: auto;
+  }
+
+    .contact .form {
+    width: 100%;
+    text-align: center;
+        overflow: auto;
+  }
+  .about .about-content .left{
+    width: 90%;
+    padding: 0 100px;
+    overflow: auto;
+  }
+
+  .about .about-content .right{
+    width: 100%;
+    padding: 0 200px;
+    overflow: auto;
+  }
+
+  .about .about-content td{
+    width: 100%;
+    padding: 0 200px;
+    overflow: hidden;
+  }
+}
+
 
 
 
