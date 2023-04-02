@@ -244,6 +244,7 @@ html {
     height: 450px;
     width: 450px;
     object-fit: cover;
+    margin-right: auto;
     border-radius: 50%;
 }
 
@@ -267,7 +268,6 @@ html {
 }
 
 .about .about-content .right .table {
-    width: 500px;
     padding: 10px 0;
     margin-left: 0px;
 }
@@ -596,9 +596,9 @@ section {
 
 /*Mobile Screen Adjustments*/
 
-@media(max-width: 991px) {
+@media(max-width: 1100px) {
     html {
-        font-size: 55%;
+        font-size: 85%;
     }
 }
 
@@ -619,7 +619,7 @@ section {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1100px) {
     .navbar .logo {
         display: none;
     }
