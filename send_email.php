@@ -18,8 +18,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Set up the email parameters
     $sendSmtpEmail = new \SendinBlue\Client\Model\SendSmtpEmail();
-    $sendSmtpEmail->setSender(new \SendinBlue\Client\Model\SendSmtpEmailSender(array('name' => 'Your Name', 'email' => 'your-email@example.com')));
-    $sendSmtpEmail->setTo(array(array('email' => 'your-email@example.com', 'name' => 'Your Name')));
+    $sendSmtpEmail->setSubject($subject);
+    $sendSmtpEmail->setSender(new \SendinBlue\Client\Model\SendSmtpEmailSender(array('name' => $name, 'email' => $email)));
+    $sendSmtpEmail->setTo(array(array('email' => 'Preshen4@gmail.com', 'name' => 'Preshen Govender')));
     $sendSmtpEmail->setHtmlContent($message);
 
     // Send the email
