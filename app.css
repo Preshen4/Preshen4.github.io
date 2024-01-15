@@ -375,44 +375,38 @@ html {
     width: 90%;
 }
 
-.skills .skill-content .right .Java::before {
+.skills .skill-content .right .J::before {
     width: 85%;
 }
 
-.skills .skill-content .right .Python::before {
+.skills .skill-content .right .P::before {
     width: 70%;
 }
 
-.skills .skill-content .right .SQL::before {
+.skills .skill-content .right .S::before {
     width: 98%;
 }
 
-.skills .skill-content .right .NoSQL::before {
+.skills .skill-content .right .N::before {
     width: 90%;
 }
 
-.skills .skill-content .right .Kotlin::before {
+.skills .skill-content .right .K::before {
     width: 70%;
 }
 
 
-.skills .skill-content .right .React::before {
+.skills .skill-content .right .R::before {
     width: 75%;
 }
 
-.skills .skill-content .right .Angular::before {
+.skills .skill-content .right .A::before {
     width: 70%;
 }
 
-.skills .skill-content .right .Vue::before {
+.skills .skill-content .right .V::before {
     width: 65%;
 }
-
-.skills .skill-content .right .Node::before {
-    width: 80%;
-}
-
-
 
 /* Contact Me Section */
 
