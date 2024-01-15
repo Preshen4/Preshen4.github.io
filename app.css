@@ -384,28 +384,7 @@ html {
 }
 
 .skills .skill-content .right .S::before {
-    width: 98%;
-}
-
-.skills .skill-content .right .N::before {
-    width: 90%;
-}
-
-.skills .skill-content .right .K::before {
-    width: 70%;
-}
-
-
-.skills .skill-content .right .R::before {
-    width: 75%;
-}
-
-.skills .skill-content .right .A::before {
-    width: 70%;
-}
-
-.skills .skill-content .right .V::before {
-    width: 65%;
+    width: 95%;
 }
 
 /* Contact Me Section */
