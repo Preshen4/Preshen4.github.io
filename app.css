@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     text-decoration: none;
     outline: none;
 }
@@ -13,7 +13,6 @@
 html {
     scroll-behavior: smooth;
 }
-
 
 .container {
     max-width: 1300px;
@@ -57,7 +56,7 @@ html {
 .btn-md {
     display: inline-block;
     background: blueviolet;
-    color: #08080A;
+    color: #08080a;
     font-size: 25px;
     font-weight: bold;
     padding: 8px 36px;
@@ -73,8 +72,8 @@ html {
 }
 
 .title::before {
-    content: '';
-    background: #07080B;
+    content: "";
+    background: #07080b;
     height: 2px;
     width: 200px;
     margin: 0 auto;
@@ -83,8 +82,8 @@ html {
 }
 
 .title::after {
-    content: '';
-    background: #07080B;
+    content: "";
+    background: #07080b;
     height: 7px;
     width: 65px;
     margin-left: auto;
@@ -116,8 +115,7 @@ html {
 
 .navbar.sticky {
     padding: 10px 100px;
-    background: #07080B;
-
+    background: #07080b;
 }
 
 .navbar .logo {
@@ -135,14 +133,14 @@ html {
 
 .navbar ul li span {
     color: blueviolet;
-    border-left: 1px solid #A9ADB8;
+    border-left: 1px solid #a9adb8;
     padding-left: 25px;
     padding-right: 5px;
     text-align: center;
 }
 
 .navbar ul li a {
-    color: #A9ADB8;
+    color: #a9adb8;
     font-weight: bold;
     transition: all 0.5s ease;
 }
@@ -189,12 +187,10 @@ html {
     overflow: hidden;
 }
 
-
-
 /* About section content */
 
 #about {
-    background: #07080B;
+    background: #07080b;
 }
 
 .about .title::before {
@@ -250,7 +246,7 @@ html {
 
 .about .about-content .right {
     width: 45%;
-    color: #A9ADB8;
+    color: #a9adb8;
 }
 
 .about .about-content .right .text {
@@ -279,7 +275,7 @@ html {
 /* My Skills Section */
 
 #skills {
-    background: #07080B;
+    background: #07080b;
 }
 
 .skills h1 {
@@ -318,7 +314,7 @@ html {
 }
 
 .skills .skill-content .left p {
-    color: #A9ADB8;
+    color: #a9adb8;
     text-align: justify;
     line-height: 1.4;
     padding-top: 15px;
@@ -327,7 +323,7 @@ html {
 .skills .skill-content .left a {
     display: inline-block;
     background: blueviolet;
-    color: #07080B;
+    color: #07080b;
     font-size: 18px;
     font-weight: 700;
     padding: 8px 16px;
@@ -351,7 +347,7 @@ html {
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
-    color: #A9ADB8;
+    color: #a9adb8;
 }
 
 .skills .skill-content .right span {
@@ -367,7 +363,7 @@ html {
 }
 
 .skills .skill-content .right .line::before {
-    content: '';
+    content: "";
     position: absolute;
     height: 100%;
     left: 0;
@@ -375,27 +371,54 @@ html {
     background: blueviolet;
 }
 
-.skills .skill-content .right .C::before {
+.skills .skill-content .right .CSharp::before {
     width: 90%;
 }
 
-.skills .skill-content .right .J::before {
+.skills .skill-content .right .Java::before {
     width: 85%;
 }
 
-.skills .skill-content .right .S::before {
+.skills .skill-content .right .Python::before {
+    width: 70%;
+}
+
+.skills .skill-content .right .SQL::before {
     width: 98%;
 }
 
-.skills .skill-content .right .P::before {
-    width: 60%;
+.skills .skill-content .right .NoSQL::before {
+    width: 90%;
 }
+
+.skills .skill-content .right .Kotlin::before {
+    width: 70%;
+}
+
+
+.skills .skill-content .right .React::before {
+    width: 75%;
+}
+
+.skills .skill-content .right .Angular::before {
+    width: 70%;
+}
+
+.skills .skill-content .right .Vue::before {
+    width: 65%;
+}
+
+.skills .skill-content .right .Node::before {
+    width: 80%;
+}
+
+
 
 /* Contact Me Section */
 
 section {
     padding: 40px 0;
-    background: #07080B;
+    background: #07080b;
 }
 
 .contact h1 {
@@ -428,14 +451,14 @@ section {
 .contact .contact-content .left h2 {
     font-size: 30px;
     margin-bottom: 30px;
-    color: #A9ADB8;
+    color: #a9adb8;
 }
 
 .contact .contact-content .left .form-group input {
     width: 100%;
     padding: 10px;
     margin: 15px 0;
-    border: 1px solid #A9ADB8;
+    border: 1px solid #a9adb8;
     background: #fff;
     border-radius: 5px;
 }
@@ -455,7 +478,7 @@ section {
 }
 
 .contact .contact-content .right {
-    color: #A9ADB8;
+    color: #a9adb8;
 }
 
 .contact .contact-content .right h2 {
@@ -479,7 +502,7 @@ section {
 
 .contact .contact-content .right .items .item i {
     padding: 16px;
-    border: 1px solid #A9ADB8;
+    border: 1px solid #a9adb8;
     border-radius: 50%;
     margin-right: 20px;
 }
@@ -500,7 +523,7 @@ section {
 }
 
 .contact .contact-content .right .links li a {
-    color: #A9ADB8;
+    color: #a9adb8;
     text-decoration: none;
     transition: all 0.3s ease;
 }
@@ -513,10 +536,9 @@ section {
     text-align: center;
     background: blueviolet;
     padding: 30px 0;
-    color: #07080B;
+    color: #07080b;
     font-weight: 700;
 }
-
 
 /* Scroll up styling */
 .scroll-up-btn {
@@ -524,7 +546,7 @@ section {
     height: 45px;
     width: 42px;
     border: 1px solid #fff;
-    background: #07080B;
+    background: #07080b;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -576,11 +598,11 @@ section {
 
 .counter::before {
     position: absolute;
-    content: '';
+    content: "";
     bottom: -2rem;
     left: 50%;
     width: 20%;
-    height: .2rem;
+    height: 0.2rem;
     background: blueviolet;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
@@ -596,20 +618,20 @@ section {
 
 /*Mobile Screen Adjustments*/
 
-@media(max-width: 1100px) {
+@media (max-width: 1100px) {
     html {
         font-size: 85%;
     }
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
     .counter-wrapper {
         grid-template-columns: repeat(4, 1fr);
         grid-row-gap: 8rem;
     }
 }
 
-@media(max-width: 450px) {
+@media (max-width: 450px) {
     html {
         font-size: 55%;
     }
@@ -634,7 +656,6 @@ section {
     .about .about-content .right {
         margin-top: 30px;
         width: 100%;
-
     }
 
     .about .about-content .right p {
@@ -711,5 +732,4 @@ section {
     .contact .contact-content .left .btn-md {
         margin-left: 120px;
     }
-
 }
